@@ -1,3 +1,8 @@
 venv/
+models/
+logs/
 .DS_Store
-data/
+data/df_clean.csv
+data/df_app.csv
+data/drugsComTrain_raw.csv
+data/drugsComTest_raw.csv
