@@ -37,8 +37,6 @@ Search by drug name or condition to explore:
 
 ## 🗂️ Project Structure
 
-## 🗂️ Project Structure
-
 ```
 drug-review-sentiment-analyser/
 ├── app.py                              # Streamlit application
