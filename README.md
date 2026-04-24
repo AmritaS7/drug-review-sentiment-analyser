@@ -37,7 +37,26 @@ Search by drug name or condition to explore:
 
 ## 🗂️ Project Structure
 
+## 🗂️ Project Structure
 
+```
+drug-review-sentiment-analyser/
+├── app.py                              # Streamlit application
+├── requirements.txt                    # Python dependencies
+├── runtime.txt                         # Python version for deployment
+├── README.md                           
+├── screenshot.png                      # App screenshot
+├── data/
+│   ├── df_app.csv.gz                   # Cleaned dataset for app (compressed)
+│   ├── df_clean.csv                    # Full cleaned dataset (local only)
+│   ├── drugsComTrain_raw.csv           # Raw training data (local only)
+│   └── drugsComTest_raw.csv            # Raw test data (local only)
+└── notebooks/
+    ├── 01_eda.ipynb                    # Exploratory data analysis
+    ├── 02_preprocessing.ipynb          # Data cleaning and preprocessing
+    ├── 03_sentiment_model.ipynb        # Sentiment modelling and fine-tuning
+    └── 04_topic_extraction.ipynb       # TF-IDF topic extraction
+```
 ---
 
 ## 🔬 Methodology
